@@ -1,0 +1,275 @@
+{
+	"flows": [
+		{
+			"id": "stage",	
+			"headline": "Let’s find the right tool for your story",
+			"question": "What stage of story production are you at?",
+			"filterable": false,
+			"sections": [
+				{
+					"title": "Pitch, starting from scratch",
+					"options": [
+						{
+							"name": "Search by type of story",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"filter": "storytype"
+						},
+						{
+							"name": "Search by level of engagement",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"filter": "engagement"
+						}
+					]
+				}, 
+				{
+					"title": "Re-packaging, distribution",
+					"options": [
+						{
+							"name": "Re-packaging, distribution",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"filter": "distribution"
+						}
+					]
+				}
+			]
+		}, 
+		{
+			"id": "storytype", 
+			"headline": "Stage of story production",
+			"question": "Pitch, starting from scratch",
+			"filterable": true,
+			"sections": [
+				{
+					"title": "Select story type",
+					"options": [
+						{
+							"name": "Profiling an individual or a community",
+							"filter": "profile"
+						},
+						{
+							"name": "Follow up to a past event", 
+							"filter": "follow"
+						},
+						{
+							"name": "Breaking news", 
+							"filter": "breaking"
+						},
+						{
+							"name": "Mark an anniversary", 
+							"filter": "anniv"
+						},
+						{
+							"name": "Event (Govt announcement, book launch, sports event, etc)", 
+							"filter": "event"
+						},
+						{
+							"name": "Investigative story", 
+							"filter": "investigative"
+						},
+						{
+							"name": "Review of a Product, film, book, play", 
+							"filter": "review"
+						},
+						{
+							"name": "Excerpt of a book/ report", 
+							"filter": "excerpt"
+						},
+						{
+							"name": "Data centric story", 
+							"filter": "datastory"
+						},
+						{
+							"name": "Opinion piece", 
+							"filter": "opinion"
+						},
+						{
+							"name": "Interview", 
+							"filter": "interview"
+						},
+						{
+							"name": "Explainer of a concept",
+							"filter": "explainer"
+						}
+					],
+					"type": "storytype"
+				}, 
+				{
+					"title": "What equipment do you have?",
+					"options": [
+						{
+							"name": "Mobile Camera", 
+							"filter": "mobile"
+						},
+						{
+							"name": "Professional Camera (DSLR)", 
+							"filter": "dslr"
+						},
+						{
+							"name": "Microphone", 
+							"filter": "mic"
+						},
+						{
+							"name": "Sound recorder (apps on phone)", 
+							"filter": "sound"
+						},
+						{
+							"name": "360 video camera", 
+							"filter": "360"
+						},
+						{
+							"name": "None",
+							"filter": "none"
+						}
+					],
+					"type": "equipment"
+				}
+			]
+		}, 
+		{
+			"id": "engagement",
+			"headline": "Stage of story production",
+			"question": "Pitch, starting from scratch",
+			"filterable": true,
+			"sections": [
+				{
+					"title": "What level of audience engagement do you seek?",
+					"options": [
+						{
+							"name": "Give a quick update", 
+							"filter": "update"
+						},
+						{
+							"name": "Bring them up to speed: background, context, process", 
+							"filter": "speed"
+						},
+						{
+							"name": "Test their level of awareness on an issue", 
+							"filter": "awareness"
+						},
+						{
+							"name": "Audio-visual experience", 
+							"filter": "av"
+						},
+						{
+							"name": "Immersive experience", 
+							"filter": "immersive"
+						},
+						{
+							"name": "Intercative experience", 
+							"filter": "interactive"
+						},
+						{
+							"name": "Get feedback or opinion", 
+							"filter": "feedback"
+						}
+					],
+					"type": "engagement"
+				}, 
+				{
+					"title": "What equipment do you have?",
+					"options": [
+						{
+							"name": "Mobile Camera", 
+							"filter": "mobile"
+						},
+						{
+							"name": "Professional Camera (DSLR)", 
+							"filter": "dslr"
+						},
+						{
+							"name": "Microphone", 
+							"filter": "mic"
+						},
+						{
+							"name": "Sound recorder (apps on phone)", 
+							"filter": "sound"
+						},
+						{
+							"name": "360 video camera", 
+							"filter": "360"
+						},
+						{
+							"name": "None",
+							"filter": "none"
+						}
+					],
+					"type": "equipment"
+				}
+			]
+		}, 
+		{
+			"id": "distribution",
+			"headline": "Stage of story production",
+			"question": "Re-packaging, distribution",
+			"filterable": true,
+			"sections": [
+				{
+					"title": "What elements do you have?",
+					"options": [
+						{
+							"name": "Image", 
+							"filter": "images"
+						},
+						{
+							"name": "Data points", 
+							"filter": "data"
+						},
+						{
+							"name": "Text", 
+							"filter": "text"
+						},
+						{
+							"name": "Audio clip", 
+							"filter": "audio"
+						},
+						{
+							"name": "B-roll, video clips", 
+							"filter": "video"
+						},
+						{
+							"name": "Interactive",
+							"filter": "interactive"
+						}
+					],
+					"type": "elements"
+				},
+				{
+					"title": "How much time do you have to produce?",
+					"options": [
+						{
+							"name": "Quick fix (upto an hour)", 
+							"filter": "quick"
+						},
+						{
+							"name": "Half day (upto 4 hours)", 
+							"filter": "half"
+						},
+						{
+							"name": "Full day (upto 8 hours)", 
+							"filter": "full"
+						}
+					],
+					"type": "time"
+				}, 
+				{
+					"title": "What skills and resources do you have?",
+					"options": [
+						{
+							"name": "Photo editing", 
+							"filter": "photosk"
+						},
+						{
+							"name": "Video editing", 
+							"filter": "videosk"
+						},
+						{
+							"name": "Other (we will suggest free tools, apps)", 
+							"filter": "tools"
+						}
+					],
+					"type": "skills"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,166 @@
+@font-face {
+  font-family: AvenirLTStd-Book;
+  src: url("https://cdn.protograph.pykih.com/lib/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirLTStd-Medium;
+  src: url("https://cdn.protograph.pykih.com/lib/AvenirLTStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir-Bold;
+  src: url("https://cdn.protograph.pykih.com/lib/AEH.ttf") format("opentype");
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 1260px;
+  height: 430px;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  height: inherit;
+  position: relative;
+}
+
+.header {
+  width: 1260px;
+  height: 50px;
+  background-color: #f4f4f4;
+}
+
+.prev-q {
+  font-family: AvenirLTStd-Book;
+  color: #333333;
+  font-size: 16px;
+  line-height: 3;
+  padding-left: 8px;
+}
+
+.content {
+  height: 80px;
+  padding-left: 8px;
+}
+
+.current-q {
+  font-family: Avenir-Bold;
+  font-size: 32px;
+  margin: 10px;
+  height: 60px;
+  box-sizing: border-box;
+  line-height: 2.2;
+}
+
+.choice-button {
+  border-radius: 10px;
+  font-family: AvenirLTStd-Book;
+  font-size: 13px;
+  height: 35px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: inline-block;
+  border: solid 1px #d6d6d6;
+  color: #666666;
+  line-height: 2.7;
+  margin: 5px;
+  background-color: white;
+  white-space: nowrap;
+  padding: 0px 10px;
+}
+
+.choice-button:hover {
+  border: solid 1px #31cfab;
+  color: #199a7d;
+}
+
+.choice-button:focus {
+  outline: none;
+}
+
+.choice-div {
+  display: inline-block;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  vertical-align: top;
+}
+
+.choice-desc {
+  font-family: AvenirLTStd-Book;
+  font-size: 12px;
+  color: #838383;
+  margin:6px 0px 0px 10px;
+}
+
+.flow-div {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flow-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-area {
+  margin-right: 20px;
+}
+
+.flow-header {
+  font-family: Avenir-Bold;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.flows {
+  margin-left: 10px;
+}
+
+.submit-button {
+  width: 135px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #31cfab;
+  font-family: AvenirLTStd-Book;
+  font-size: 16px;
+  color: #fff;
+  line-height: 2.8;
+  border: none;
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+input[type=checkbox].hidden {
+   display:none;
+}
+
+:checked + span {
+  background-color: #31cfab;
+  color: #fff;
+  border: 1px solid #31cfab;
+}
+
+:checked + span:hover {
+  color: #fff;
+}
+
+.icon {
+  display:inline-block;
+  position:relative;
+  top:3.5px;
+  width:20px;
+  cursor: pointer;
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "title": "GIF",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/gif.jpg",
+    "description": "Show an endless loop of animated or static images",
+    "filters":
+			{
+				"storytype": ["breaking", "datastory", "event", "review", "excerpt"],
+				"engagement": ["update", "feedback"],
+				"equipment": ["none"],
+				"elements": ["images", "data", "interactive"],
+				"skills": ["photosk", "videosk", "tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "whatsapp", "instagram", "youtube", "within"],
+			"toolnames": ["Cinemagram", "giphy", "imgur", "GifBoom"]
+  },
+  {
+    "title": "Audio Photo Slideshow",
+    "subtitle": "Half-day",
+    "img_url": "https://next.pro.to/assets/formats/audio-photo-slideshow.jpg",
+    "description": "Tell a compelling story with only audio and images",
+    "filters":
+			{
+				"storytype": ["profile", "follow", "breaking", "opinion", "anniv", "interview", "event", "investigative", "review", "excerpt"],
+				"engagement": ["speed", "av"],
+				"equipment": ["mobile", "dslr", "mic", "sound"],
+				"elements": ["images", "audio"],
+				"skills": ["videosk"],
+				"time": ["half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "whatsapp", "instagram", "youtube", "separate", "within"],
+			"toolnames": null
+  },
+  {
+    "title": "Video Package",
+    "subtitle": "Full-day",
+    "img_url": "https://next.pro.to/assets/formats/video-package.jpg",
+    "description": "Create a stand alone package with audio, images, videos clips and quotes",
+    "filters":
+			{
+				"storytype": ["profile", "follow", "explainer", "datastory", "opinion", "anniv", "interview", "event", "investigative", "review"],
+				"engagement": ["speed", "av"],
+				"equipment": ["mobile", "dslr", "mic", "sound"],
+				"elements": ["images", "data", "interactive", "audio", "video", "text"],
+				"skills": ["videosk", "tools"],
+				"time": ["full"]
+			},
+			"platforms": ["facebook", "instagram", "twitter", "whatsapp", "youtube", "separate", "within"],
+			"toolnames": ["iMovie", "Quik", "FilmoraGo", "GifBoom"]
+  },
+  {
+    "title": "Video clip",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/video-clip.jpg",
+    "description": "Give a glimpse of a story in small clips",
+    "filters":
+			{
+				"storytype": ["profile", "follow", "opinion", "anniv", "interview", "event", "investigative"],
+				"engagement": ["speed", "av", "feedback"],
+				"equipment": ["mobile", "dslr", "mic", "sound"],
+				"elements": ["audio", "video", "data"],
+				"skills": ["videosk", "tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "whatsapp", "instagram", "youtube", "within"],
+			"toolnames": ["???"]
+  },
+  {
+    "title": "Instagram Story",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/insta-story.jpg",
+    "description": "Tell a story in vertical slides with images, text, videos and instagram tools",
+    "filters":
+			{
+				"storytype": ["profile", "follow", "breaking", "explainer", "datastory", "opinion", "anniv", "interview", "event", "investigative", "review", "excerpt"],
+				"engagement": ["speed", "awareness", "av", "interactive", "feedback"],
+				"equipment": ["mobile", "dslr", "mic", "sound", "none"],
+				"elements": ["images", "data", "text"],
+				"skills": ["photosk", "videosk", "tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "whatsapp", "instagram", "youtube", "separate", "within"],
+			"toolnames": ["Instagram"]
+  },
+  {
+    "title": "Photo Slideshow",
+    "subtitle": "Half-day",
+    "img_url": "https://next.pro.to/assets/formats/photo-slideshow.jpg",
+    "description": "Tell a story with multiple images",
+    "filters":
+			{
+				"storytype": ["profile", "follow", "explainer", "datastory", "anniv", "interview", "event", "investigative", "review", "excerpt"],
+				"engagement": ["update", "speed", "av"],
+				"equipment": ["mobile", "dslr", "none"],
+				"elements": ["images", "data", "text"],
+				"skills": ["photosk", "tools"],
+				"time": ["half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "instagram", "within"],
+			"toolnames": ["Canva", "Kinemaster", "Picasa"]
+  },
+  {
+    "title": "Quote cards",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/quote-cards.jpg",
+    "description": "Give highlights of an interview with compelling quotes",
+    "filters":
+			{
+				"storytype": ["profile", "opinion", "interview", "review", "excerpt"],
+				"engagement": ["update", "speed"],
+				"equipment": ["mobile", "dslr", "none"],
+				"elements": ["images", "text"],
+				"skills": ["photosk", "tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "whatsapp", "twitter", "instagram", "within"],
+			"toolnames": ["???"]
+  },
+  {
+    "title": "Timeline",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/timeline.jpg",
+    "description": "Tell a story in a chronological order",
+    "filters":
+			{
+				"storytype": ["follow", "anniv", "investigative"],
+				"engagement": ["speed", "awareness", "interactive"],
+				"equipment": ["mobile", "dslr", "mic", "sound", "none"],
+				"elements": ["images", "audio", "video", "text"],
+				"skills": ["tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["separate", "within"],
+			"toolnames": ["TimelineJS", "toTimeline", "Sutori"]
+  },
+  {
+    "title": "Quiz",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/quiz.jpg",
+    "description": "Engage reader with multiple choice questions",
+    "filters":
+			{
+				"storytype": ["follow", "breaking", "anniv", "interview", "event"],
+				"engagement": ["update", "awareness", "interactive"],
+				"equipment": ["none"],
+				"elements": ["images", "video", "text"],
+				"skills": ["tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "separate", "within"],
+			"toolnames": ["toQuiz"]
+  },
+  {
+    "title": "Story Map",
+    "subtitle": "Half-day",
+    "img_url": "https://next.pro.to/assets/formats/story-map.jpg",
+    "description": "Combine maps with narrative text, images, and multimedia content",
+    "filters":
+			{
+				"elements": ["images", "data", "audio", "video", "text"],
+				"storytype": ["profile", "follow", "explainer", "datastory", "anniv", "investigative"],
+				"engagement": ["speed", "av", "interactive", "immersive"],
+				"equipment": ["mobile", "dslr", "mic", "sound"],
+				"skills": ["tools"],
+				"time": ["half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "separate"],
+			"toolnames": ["Story Map", "Thinglink"]
+  },
+  {
+    "title": "Audio clip",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/audio-clip.jpg",
+    "description": "Add in-line audio in a story",
+    "filters":
+			{
+				"elements": ["audio"],
+				"storytype": ["profile", "follow", "interview", "investigative"],
+				"engagement": ["av", "interactive"],
+				"equipment": ["mobile", "mic", "sound"],
+				"skills": ["tools", "videosk"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["within"],
+			"toolnames": ["Soundcite"]
+  },
+  {
+    "title": "360 photo",
+    "subtitle": "Full-day",
+    "img_url": "https://next.pro.to/assets/formats/360-photo.jpg",
+    "description": "Tell an immersive story with a 360 view image",
+    "filters":
+			{
+				"elements": ["images", "interactive", "text"],
+				"storytype": ["profile", "follow", "explainer", "investigative"],
+				"engagement": ["speed", "av", "interactive", "immersive"],
+				"equipment": ["360"],
+				"skills": ["photosk", "videosk"],
+				"time": ["full"]
+			},
+			"platforms": ["separate"],
+			"toolnames": ["360 Camera"]
+  },
+  {
+    "title": "360 video",
+    "subtitle": "Full-day",
+    "img_url": "https://next.pro.to/assets/formats/360-video.jpg",
+    "description": "Tell an immersive story by stitching 360 video clips",
+    "filters":
+			{
+				"elements": ["audio", "video", "text"],
+				"storytype": ["profile", "follow", "explainer", "investigative"],
+				"engagement": ["speed", "av", "immersive"],
+				"equipment": ["360"],
+				"skills": ["videosk"],
+				"time": ["full"]
+			},
+			"platforms": ["facebook", "youtube", "separate", "within"],
+			"toolnames": ["360 Camera"]
+  },
+  {
+    "title": "Poll",
+    "subtitle": "Quick-fix",
+    "img_url": "https://next.pro.to/assets/formats/poll.jpg",
+    "description": "Get feedback or opinion from the reader",
+    "filters":
+			{
+				"elements": ["text"],
+				"storytype": ["breaking", "opinion", "review"],
+				"engagement": ["update", "awareness", "interactive", "feedback"],
+				"equipment": ["none"],
+				"skills": ["tools"],
+				"time": ["quick", "half", "full"]
+			},
+			"platforms": ["facebook", "twitter", "instagram", "separate"],
+			"toolnames": ["Facebook", "Instagram", "Twitter"]
+  }
+]
